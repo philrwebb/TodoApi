@@ -1,0 +1,75 @@
+2022-05-16 18:43:28.571 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-05-16 18:43:28.735 +08:00 [DBG] Hosting starting
+2022-05-16 18:43:28.963 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 912CCB7B08647BE9A6BB93A9CCF7E2815A8C62C5)
+2022-05-16 18:43:29.005 +08:00 [INF] Now listening on: https://localhost:7209
+2022-05-16 18:43:29.006 +08:00 [INF] Now listening on: http://localhost:5050
+2022-05-16 18:43:29.006 +08:00 [DBG] Loaded hosting startup assembly TodoApi
+2022-05-16 18:43:29.008 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-16 18:43:29.010 +08:00 [INF] Hosting environment: Development
+2022-05-16 18:43:29.011 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnet/TodoApi/
+2022-05-16 18:43:29.012 +08:00 [DBG] Hosting started
+2022-05-16 18:43:30.199 +08:00 [DBG] Connection id "0HMHN53LARO2F" accepted.
+2022-05-16 18:43:30.208 +08:00 [DBG] Connection id "0HMHN53LARO2F" started.
+2022-05-16 18:43:30.454 +08:00 [DBG] Connection 0HMHN53LARO2F established using the following protocol: "Tls12"
+2022-05-16 18:43:30.509 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7209/ - -
+2022-05-16 18:43:30.515 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-05-16 18:43:30.562 +08:00 [DBG] The request path  does not match the path filter
+2022-05-16 18:43:30.610 +08:00 [DBG] No candidates found for the request path '/'
+2022-05-16 18:43:30.610 +08:00 [DBG] Request did not match any endpoints
+2022-05-16 18:43:30.620 +08:00 [DBG] Connection id "0HMHN53LARO2F" completed keep alive response.
+2022-05-16 18:43:30.628 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7209/ - - - 404 0 - 119.5339ms
+2022-05-16 18:43:41.865 +08:00 [DBG] Connection id "0HMHN53LARO2G" accepted.
+2022-05-16 18:43:41.872 +08:00 [DBG] Connection id "0HMHN53LARO2G" started.
+2022-05-16 18:43:41.874 +08:00 [DBG] Connection id "0HMHN53LARO2H" accepted.
+2022-05-16 18:43:41.874 +08:00 [DBG] Connection id "0HMHN53LARO2H" started.
+2022-05-16 18:43:41.886 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7209/swagger/swagger-ui.css - -
+2022-05-16 18:43:41.910 +08:00 [DBG] Connection 0HMHN53LARO2H established using the following protocol: "Tls12"
+2022-05-16 18:43:41.916 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7209/swagger/swagger-ui-bundle.js - -
+2022-05-16 18:43:41.924 +08:00 [DBG] Connection 0HMHN53LARO2G established using the following protocol: "Tls12"
+2022-05-16 18:43:41.930 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7209/swagger/swagger-ui-standalone-preset.js - -
+2022-05-16 18:43:41.967 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-05-16 18:43:41.967 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-05-16 18:43:41.969 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-05-16 18:43:41.971 +08:00 [DBG] Connection id "0HMHN53LARO2G" completed keep alive response.
+2022-05-16 18:43:41.971 +08:00 [DBG] Connection id "0HMHN53LARO2F" completed keep alive response.
+2022-05-16 18:43:41.971 +08:00 [DBG] Connection id "0HMHN53LARO2H" completed keep alive response.
+2022-05-16 18:43:41.972 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7209/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 41.5782ms
+2022-05-16 18:43:41.972 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7209/swagger/swagger-ui.css - - - 200 143632 text/css 86.3370ms
+2022-05-16 18:43:41.972 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7209/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 55.6682ms
+2022-05-16 18:43:42.040 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7209/swagger/v1/swagger.json - -
+2022-05-16 18:43:42.052 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7209/swagger/favicon-32x32.png - -
+2022-05-16 18:43:42.064 +08:00 [INF] The file /favicon-32x32.png was not modified
+2022-05-16 18:43:42.073 +08:00 [DBG] Handled. Status code: 304 File: /favicon-32x32.png
+2022-05-16 18:43:42.075 +08:00 [DBG] Connection id "0HMHN53LARO2G" completed keep alive response.
+2022-05-16 18:43:42.076 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7209/swagger/favicon-32x32.png - - - 304 - image/png 23.9374ms
+2022-05-16 18:43:42.273 +08:00 [DBG] Connection id "0HMHN53LARO2H" completed keep alive response.
+2022-05-16 18:43:42.273 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7209/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 232.8391ms
+2022-05-16 18:44:22.901 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-05-16 18:44:23.057 +08:00 [DBG] Hosting starting
+2022-05-16 18:44:23.219 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 912CCB7B08647BE9A6BB93A9CCF7E2815A8C62C5)
+2022-05-16 18:44:23.260 +08:00 [INF] Now listening on: https://localhost:7209
+2022-05-16 18:44:23.261 +08:00 [INF] Now listening on: http://localhost:5050
+2022-05-16 18:44:23.261 +08:00 [DBG] Loaded hosting startup assembly TodoApi
+2022-05-16 18:44:23.263 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-05-16 18:44:23.265 +08:00 [INF] Hosting environment: Development
+2022-05-16 18:44:23.265 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnet/TodoApi/
+2022-05-16 18:44:23.265 +08:00 [DBG] Hosting started
+2022-05-16 18:44:23.364 +08:00 [DBG] Connection id "0HMHN5455VGEJ" accepted.
+2022-05-16 18:44:23.367 +08:00 [DBG] Connection id "0HMHN5455VGEJ" started.
+2022-05-16 18:44:23.459 +08:00 [DBG] Connection 0HMHN5455VGEJ established using the following protocol: "Tls12"
+2022-05-16 18:44:23.522 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7209/ - -
+2022-05-16 18:44:23.528 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-05-16 18:44:23.582 +08:00 [DBG] The request path  does not match the path filter
+2022-05-16 18:44:23.630 +08:00 [DBG] No candidates found for the request path '/'
+2022-05-16 18:44:23.631 +08:00 [DBG] Request did not match any endpoints
+2022-05-16 18:44:23.641 +08:00 [DBG] Connection id "0HMHN5455VGEJ" completed keep alive response.
+2022-05-16 18:44:23.651 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7209/ - - - 404 0 - 126.8623ms
+2022-05-16 18:44:30.235 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7209/swagger/index.html - -
+2022-05-16 18:44:30.340 +08:00 [DBG] Connection id "0HMHN5455VGEJ" completed keep alive response.
+2022-05-16 18:44:30.342 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7209/swagger/index.html - - - 200 - text/html;charset=utf-8 109.1296ms
+2022-05-16 18:44:30.467 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7209/swagger/v1/swagger.json - -
+2022-05-16 18:44:30.673 +08:00 [DBG] Connection id "0HMHN5455VGEJ" completed keep alive response.
+2022-05-16 18:44:30.674 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7209/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 206.0670ms
+2022-05-16 18:46:41.331 +08:00 [DBG] Connection id "0HMHN5455VGEJ" disconnecting.
+2022-05-16 18:46:41.344 +08:00 [DBG] Connection id "0HMHN5455VGEJ" stopped.
+2022-05-16 18:46:41.351 +08:00 [DBG] Connection id "0HMHN5455VGEJ" sending FIN because: "The Socket transport's send loop completed gracefully."

@@ -1,0 +1,152 @@
+2022-09-26 16:10:03.256 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-26 16:10:03.501 +08:00 [DBG] Hosting starting
+2022-09-26 16:10:03.526 +08:00 [INF] User profile is available. Using '/Users/philipwebb/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-09-26 16:10:03.537 +08:00 [DBG] Reading data from file '/Users/philipwebb/.aspnet/DataProtection-Keys/key-f12eac11-3d86-4aae-858a-c375e8a7047a.xml'.
+2022-09-26 16:10:03.558 +08:00 [DBG] Reading data from file '/Users/philipwebb/.aspnet/DataProtection-Keys/key-1cfd4ba0-fde4-489b-b998-f2d30879c1fc.xml'.
+2022-09-26 16:10:03.559 +08:00 [DBG] Reading data from file '/Users/philipwebb/.aspnet/DataProtection-Keys/key-9ed2fbc9-6671-46ff-92ba-f0088dfe72bc.xml'.
+2022-09-26 16:10:03.559 +08:00 [DBG] Reading data from file '/Users/philipwebb/.aspnet/DataProtection-Keys/key-ed349950-662a-4d98-a7ff-ea3c36c0f9de.xml'.
+2022-09-26 16:10:03.570 +08:00 [DBG] Found key {f12eac11-3d86-4aae-858a-c375e8a7047a}.
+2022-09-26 16:10:03.586 +08:00 [DBG] Found key {1cfd4ba0-fde4-489b-b998-f2d30879c1fc}.
+2022-09-26 16:10:03.588 +08:00 [DBG] Found key {9ed2fbc9-6671-46ff-92ba-f0088dfe72bc}.
+2022-09-26 16:10:03.588 +08:00 [DBG] Found key {ed349950-662a-4d98-a7ff-ea3c36c0f9de}.
+2022-09-26 16:10:03.602 +08:00 [DBG] Considering key {f12eac11-3d86-4aae-858a-c375e8a7047a} with expiration date 2022-12-10 05:43:08Z as default key.
+2022-09-26 16:10:03.611 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-09-26 16:10:03.619 +08:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2022-09-26 16:10:03.619 +08:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2022-09-26 16:10:03.637 +08:00 [DBG] Using key {f12eac11-3d86-4aae-858a-c375e8a7047a} as the default key.
+2022-09-26 16:10:03.639 +08:00 [DBG] Key ring with default key {f12eac11-3d86-4aae-858a-c375e8a7047a} was loaded during application startup.
+2022-09-26 16:10:03.840 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 912CCB7B08647BE9A6BB93A9CCF7E2815A8C62C5)
+2022-09-26 16:10:03.894 +08:00 [INF] Now listening on: https://localhost:7209
+2022-09-26 16:10:03.895 +08:00 [INF] Now listening on: http://localhost:5050
+2022-09-26 16:10:03.895 +08:00 [DBG] Loaded hosting startup assembly TodoApi
+2022-09-26 16:10:03.896 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-26 16:10:03.897 +08:00 [INF] Hosting environment: Development
+2022-09-26 16:10:03.897 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnet/TodoApi/
+2022-09-26 16:10:03.897 +08:00 [DBG] Hosting started
+2022-09-26 16:10:24.067 +08:00 [DBG] Connection id "0HMKVIQ846V2R" accepted.
+2022-09-26 16:10:24.076 +08:00 [DBG] Connection id "0HMKVIQ846V2R" started.
+2022-09-26 16:10:24.283 +08:00 [DBG] Connection 0HMKVIQ846V2R established using the following protocol: "Tls12"
+2022-09-26 16:10:24.353 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7209/swagger/index.html - -
+2022-09-26 16:10:24.359 +08:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2022-09-26 16:10:24.533 +08:00 [DBG] Connection id "0HMKVIQ846V2R" completed keep alive response.
+2022-09-26 16:10:24.541 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7209/swagger/index.html - - - 200 - text/html;charset=utf-8 188.4499ms
+2022-09-26 16:10:24.673 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7209/swagger/v1/swagger.json - -
+2022-09-26 16:10:24.979 +08:00 [DBG] Connection id "0HMKVIQ846V2R" completed keep alive response.
+2022-09-26 16:10:24.980 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7209/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 306.2938ms
+2022-09-26 16:11:07.338 +08:00 [INF] Request starting HTTP/1.1 POST https://localhost:7209/api/authentication/Login application/json 65
+2022-09-26 16:11:07.353 +08:00 [DBG] POST requests are not supported
+2022-09-26 16:11:07.454 +08:00 [DBG] 1 candidate(s) found for the request path '/api/authentication/Login'
+2022-09-26 16:11:07.465 +08:00 [DBG] Endpoint 'CityInfo.API.Controllers.AuthenticationController.LoginAsync (TodoApi)' with route pattern 'api/authentication/Login' is valid for the request path '/api/authentication/Login'
+2022-09-26 16:11:07.503 +08:00 [DBG] Request matched endpoint 'CityInfo.API.Controllers.AuthenticationController.LoginAsync (TodoApi)'
+2022-09-26 16:11:07.558 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-09-26 16:11:07.565 +08:00 [INF] Executing endpoint 'CityInfo.API.Controllers.AuthenticationController.LoginAsync (TodoApi)'
+2022-09-26 16:11:07.627 +08:00 [INF] Route matched with {action = "Login", controller = "Authentication"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(TodoApi.Models.LoginViewModelDto) on controller CityInfo.API.Controllers.AuthenticationController (TodoApi).
+2022-09-26 16:11:07.630 +08:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2022-09-26 16:11:07.631 +08:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2022-09-26 16:11:07.632 +08:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-09-26 16:11:07.632 +08:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2022-09-26 16:11:07.632 +08:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.ReportApiVersionsAttribute (Order: 0)"]
+2022-09-26 16:11:07.633 +08:00 [DBG] Executing controller factory for controller CityInfo.API.Controllers.AuthenticationController (TodoApi)
+2022-09-26 16:11:07.834 +08:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2022-09-26 16:11:07.899 +08:00 [DBG] Executed controller factory for controller CityInfo.API.Controllers.AuthenticationController (TodoApi)
+2022-09-26 16:11:07.907 +08:00 [DBG] Attempting to bind parameter 'model' of type 'TodoApi.Models.LoginViewModelDto' ...
+2022-09-26 16:11:07.913 +08:00 [DBG] Attempting to bind parameter 'model' of type 'TodoApi.Models.LoginViewModelDto' using the name '' in request data ...
+2022-09-26 16:11:07.915 +08:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json'.
+2022-09-26 16:11:07.916 +08:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json'.
+2022-09-26 16:11:07.926 +08:00 [DBG] Connection id "0HMKVIQ846V2R", Request id "0HMKVIQ846V2R:00000004": started reading request body.
+2022-09-26 16:11:07.937 +08:00 [DBG] Connection id "0HMKVIQ846V2R", Request id "0HMKVIQ846V2R:00000004": done reading request body.
+2022-09-26 16:11:08.084 +08:00 [DBG] Done attempting to bind parameter 'model' of type 'TodoApi.Models.LoginViewModelDto'.
+2022-09-26 16:11:08.084 +08:00 [DBG] Done attempting to bind parameter 'model' of type 'TodoApi.Models.LoginViewModelDto'.
+2022-09-26 16:11:08.084 +08:00 [DBG] Attempting to validate the bound parameter 'model' of type 'TodoApi.Models.LoginViewModelDto' ...
+2022-09-26 16:11:08.111 +08:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'TodoApi.Models.LoginViewModelDto'.
+2022-09-26 16:11:08.697 +08:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserRole<string>' as the properties are already covered by the index {'UserId', 'RoleId'}.
+2022-09-26 16:11:08.698 +08:00 [DBG] The index {'UserId'} was not created on entity type 'IdentityUserToken<string>' as the properties are already covered by the index {'UserId', 'LoginProvider', 'Name'}.
+2022-09-26 16:11:09.027 +08:00 [INF] Entity Framework Core 6.0.4 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:6.0.4' with options: None
+2022-09-26 16:11:09.131 +08:00 [DBG] Compiling query expression: 
+'DbSet<IdentityUser>()
+    .SingleOrDefault(u => u.NormalizedEmail == __normalizedEmail_0)'
+2022-09-26 16:11:09.386 +08:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<IdentityUser>(
+    asyncEnumerable: new SingleQueryingEnumerable<IdentityUser>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.SelectExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: IdentityUser.Id (string) Required PK AfterSave:Throw, 0], [Property: IdentityUser.AccessFailedCount (int) Required, 1], [Property: IdentityUser.ConcurrencyStamp (string) Concurrency, 2], [Property: IdentityUser.Email (string) MaxLength(256), 3], [Property: IdentityUser.EmailConfirmed (bool) Required, 4], [Property: IdentityUser.LockoutEnabled (bool) Required, 5], [Property: IdentityUser.LockoutEnd (DateTimeOffset?), 6], [Property: IdentityUser.NormalizedEmail (string) Index MaxLength(256), 7], [Property: IdentityUser.NormalizedUserName (string) Index MaxLength(256), 8], [Property: IdentityUser.PasswordHash (string), 9], [Property: IdentityUser.PhoneNumber (string), 10], [Property: IdentityUser.PhoneNumberConfirmed (bool) Required, 11], [Property: IdentityUser.SecurityStamp (string), 12], [Property: IdentityUser.TwoFactorEnabled (bool) Required, 13], [Property: IdentityUser.UserName (string) MaxLength(256), 14] }
+            SELECT TOP(2) a.Id, a.AccessFailedCount, a.ConcurrencyStamp, a.Email, a.EmailConfirmed, a.LockoutEnabled, a.LockoutEnd, a.NormalizedEmail, a.NormalizedUserName, a.PasswordHash, a.PhoneNumber, a.PhoneNumberConfirmed, a.SecurityStamp, a.TwoFactorEnabled, a.UserName
+            FROM AspNetUsers AS a
+            WHERE a.NormalizedEmail == @__normalizedEmail_0), 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, IdentityUser>, 
+        CityInfo.API.DbContexts.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2022-09-26 16:11:09.453 +08:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2022-09-26 16:11:09.519 +08:00 [DBG] Created DbCommand for 'ExecuteReader' (64ms).
+2022-09-26 16:11:09.531 +08:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2022-09-26 16:11:09.560 +08:00 [DBG] Opened connection to database 'main' on server '/Users/philipwebb/Development/dotnet/TodoApi/CityInfo.db'.
+2022-09-26 16:11:09.579 +08:00 [DBG] Executing DbCommand [Parameters=[@__normalizedEmail_0='?' (Size = 22)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2022-09-26 16:11:09.631 +08:00 [INF] Executed DbCommand (42ms) [Parameters=[@__normalizedEmail_0='?' (Size = 22)], CommandType='"Text"', CommandTimeout='30']
+SELECT "a"."Id", "a"."AccessFailedCount", "a"."ConcurrencyStamp", "a"."Email", "a"."EmailConfirmed", "a"."LockoutEnabled", "a"."LockoutEnd", "a"."NormalizedEmail", "a"."NormalizedUserName", "a"."PasswordHash", "a"."PhoneNumber", "a"."PhoneNumberConfirmed", "a"."SecurityStamp", "a"."TwoFactorEnabled", "a"."UserName"
+FROM "AspNetUsers" AS "a"
+WHERE "a"."NormalizedEmail" = @__normalizedEmail_0
+LIMIT 2
+2022-09-26 16:11:09.700 +08:00 [DBG] Context 'ApplicationDbContext' started tracking 'IdentityUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2022-09-26 16:11:09.761 +08:00 [DBG] A data reader was disposed.
+2022-09-26 16:11:09.767 +08:00 [DBG] Closing connection to database 'main' on server '/Users/philipwebb/Development/dotnet/TodoApi/CityInfo.db'.
+2022-09-26 16:11:09.775 +08:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db'.
+2022-09-26 16:11:09.911 +08:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2022-09-26 16:11:09.914 +08:00 [DBG] No information found on request to perform content negotiation.
+2022-09-26 16:11:09.914 +08:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2022-09-26 16:11:09.914 +08:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2022-09-26 16:11:09.916 +08:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2022-09-26 16:11:09.917 +08:00 [INF] Executing OkObjectResult, writing value of type 'TodoApi.Models.UserManagerResponse'.
+2022-09-26 16:11:10.013 +08:00 [INF] Executed action CityInfo.API.Controllers.AuthenticationController.LoginAsync (TodoApi) in 2375.4472ms
+2022-09-26 16:11:10.014 +08:00 [INF] Executed endpoint 'CityInfo.API.Controllers.AuthenticationController.LoginAsync (TodoApi)'
+2022-09-26 16:11:10.015 +08:00 [DBG] Connection id "0HMKVIQ846V2R" completed keep alive response.
+2022-09-26 16:11:10.019 +08:00 [DBG] 'ApplicationDbContext' disposed.
+2022-09-26 16:11:10.022 +08:00 [INF] Request finished HTTP/1.1 POST https://localhost:7209/api/authentication/Login application/json 65 - 200 448 application/json;+charset=utf-8 2685.9604ms
+2022-09-26 16:11:36.404 +08:00 [DBG] Connection id "0HMKVIQ846V2R" received FIN.
+2022-09-26 16:11:36.427 +08:00 [DBG] Connection id "0HMKVIQ846V2R" disconnecting.
+2022-09-26 16:11:36.431 +08:00 [DBG] Connection id "0HMKVIQ846V2R" sending FIN because: "The client closed the connection."
+2022-09-26 16:11:36.473 +08:00 [DBG] Connection id "0HMKVIQ846V2R" stopped.
+2022-09-26 16:15:42.540 +08:00 [DBG] Connection id "0HMKVIQ846V2S" accepted.
+2022-09-26 16:15:42.543 +08:00 [DBG] Connection id "0HMKVIQ846V2S" started.
+2022-09-26 16:15:42.588 +08:00 [DBG] Connection 0HMKVIQ846V2S established using the following protocol: "Tls12"
+2022-09-26 16:15:42.594 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7209/swagger/index.html - -
+2022-09-26 16:15:42.606 +08:00 [DBG] Connection id "0HMKVIQ846V2S" completed keep alive response.
+2022-09-26 16:15:42.607 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7209/swagger/index.html - - - 200 - text/html;charset=utf-8 13.1572ms
+2022-09-26 16:15:42.708 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7209/swagger/v1/swagger.json - -
+2022-09-26 16:15:42.750 +08:00 [DBG] Connection id "0HMKVIQ846V2S" completed keep alive response.
+2022-09-26 16:15:42.750 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7209/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 42.0794ms
+2022-09-26 16:17:15.255 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7209/api/vv1/cities?name=Antwerp&pageNumber=1&pageSize=10 - -
+2022-09-26 16:17:15.259 +08:00 [DBG] The request path  does not match the path filter
+2022-09-26 16:17:15.273 +08:00 [DBG] 1 candidate(s) found for the request path '/api/vv1/cities'
+2022-09-26 16:17:15.277 +08:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (TodoApi)' with route pattern 'api/v{version:apiVersion}/cities' was rejected by complex segment 'v{version:}' for the request path '/api/vv1/cities'
+2022-09-26 16:17:15.288 +08:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (TodoApi)' with route pattern 'api/v{version:apiVersion}/cities' was rejected by constraint 'version':'Microsoft.AspNetCore.Mvc.Routing.ApiVersionRouteConstraint' with value 'null' for the request path '/api/vv1/cities'
+2022-09-26 16:17:15.290 +08:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (TodoApi)' with route pattern 'api/v{version:apiVersion}/cities' is not valid for the request path '/api/vv1/cities'
+2022-09-26 16:17:15.310 +08:00 [DBG] Request did not match any endpoints
+2022-09-26 16:17:15.320 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-09-26 16:17:15.324 +08:00 [DBG] Connection id "0HMKVIQ846V2S" completed keep alive response.
+2022-09-26 16:17:15.325 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7209/api/vv1/cities?name=Antwerp&pageNumber=1&pageSize=10 - - - 404 0 - 69.7253ms
+2022-09-26 16:17:40.502 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7209/api/vv1/cities?searchQuery=Ant&pageNumber=1&pageSize=10 - -
+2022-09-26 16:17:40.504 +08:00 [DBG] The request path  does not match the path filter
+2022-09-26 16:17:40.504 +08:00 [DBG] 1 candidate(s) found for the request path '/api/vv1/cities'
+2022-09-26 16:17:40.505 +08:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (TodoApi)' with route pattern 'api/v{version:apiVersion}/cities' was rejected by complex segment 'v{version:}' for the request path '/api/vv1/cities'
+2022-09-26 16:17:40.508 +08:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (TodoApi)' with route pattern 'api/v{version:apiVersion}/cities' was rejected by constraint 'version':'Microsoft.AspNetCore.Mvc.Routing.ApiVersionRouteConstraint' with value 'null' for the request path '/api/vv1/cities'
+2022-09-26 16:17:40.509 +08:00 [DBG] Endpoint 'CityInfo.API.Controllers.CitiesController.GetCities (TodoApi)' with route pattern 'api/v{version:apiVersion}/cities' is not valid for the request path '/api/vv1/cities'
+2022-09-26 16:17:40.511 +08:00 [DBG] Request did not match any endpoints
+2022-09-26 16:17:40.524 +08:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2022-09-26 16:17:40.526 +08:00 [DBG] Connection id "0HMKVIQ846V2S" completed keep alive response.
+2022-09-26 16:17:40.527 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7209/api/vv1/cities?searchQuery=Ant&pageNumber=1&pageSize=10 - - - 404 0 - 25.6732ms
+2022-09-26 16:19:51.396 +08:00 [DBG] Connection id "0HMKVIQ846V2S" disconnecting.
+2022-09-26 16:19:51.398 +08:00 [DBG] Connection id "0HMKVIQ846V2S" stopped.
+2022-09-26 16:19:51.401 +08:00 [DBG] Connection id "0HMKVIQ846V2S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-09-26 16:20:48.347 +08:00 [INF] Application is shutting down...
+2022-09-26 16:20:48.351 +08:00 [DBG] Hosting stopping
+2022-09-26 16:20:48.374 +08:00 [DBG] Hosting stopped

@@ -1,0 +1,18 @@
+2022-05-18 10:46:14.556 +08:00 [DBG] Connection id "0HMHNQ5TB300K" accepted.
+2022-05-18 10:46:14.568 +08:00 [DBG] Connection id "0HMHNQ5TB300K" started.
+2022-05-18 10:46:14.681 +08:00 [DBG] Connection 0HMHNQ5TB300K established using the following protocol: "Tls12"
+2022-05-18 10:46:14.693 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7209/swagger/v1/swagger.json - -
+2022-05-18 10:46:14.722 +08:00 [DBG] Connection id "0HMHNQ5TB300K" completed keep alive response.
+2022-05-18 10:46:14.723 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7209/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 31.5609ms
+2022-05-18 10:46:14.724 +08:00 [DBG] Connection id "0HMHNQ5TB300L" accepted.
+2022-05-18 10:46:14.724 +08:00 [DBG] Connection id "0HMHNQ5TB300L" started.
+2022-05-18 10:46:14.725 +08:00 [INF] Request starting HTTP/1.1 GET https://localhost:7209/swagger/v1/swagger.json - -
+2022-05-18 10:46:14.728 +08:00 [DBG] Connection id "0HMHNQ5TB300K" completed keep alive response.
+2022-05-18 10:46:14.729 +08:00 [INF] Request finished HTTP/1.1 GET https://localhost:7209/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 3.4827ms
+2022-05-18 10:46:14.748 +08:00 [DBG] Connection 0HMHNQ5TB300L established using the following protocol: "Tls12"
+2022-05-18 10:48:25.224 +08:00 [DBG] Connection id "0HMHNQ5TB300L" disconnecting.
+2022-05-18 10:48:25.224 +08:00 [DBG] Connection id "0HMHNQ5TB300K" disconnecting.
+2022-05-18 10:48:25.231 +08:00 [DBG] Connection id "0HMHNQ5TB300L" stopped.
+2022-05-18 10:48:25.231 +08:00 [DBG] Connection id "0HMHNQ5TB300K" stopped.
+2022-05-18 10:48:25.234 +08:00 [DBG] Connection id "0HMHNQ5TB300L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2022-05-18 10:48:25.234 +08:00 [DBG] Connection id "0HMHNQ5TB300K" sending FIN because: "The Socket transport's send loop completed gracefully."

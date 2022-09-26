@@ -1,0 +1,9 @@
+/Users/philipwebb/Development/dotnet/TodoApi/obj/Release/net6.0/TodoApi.csproj.AssemblyReference.cache
+/Users/philipwebb/Development/dotnet/TodoApi/obj/Release/net6.0/TodoApi.GeneratedMSBuildEditorConfig.editorconfig
+/Users/philipwebb/Development/dotnet/TodoApi/obj/Release/net6.0/TodoApi.AssemblyInfoInputs.cache
+/Users/philipwebb/Development/dotnet/TodoApi/obj/Release/net6.0/TodoApi.AssemblyInfo.cs
+/Users/philipwebb/Development/dotnet/TodoApi/obj/Release/net6.0/TodoApi.csproj.CoreCompileInputs.cache
+/Users/philipwebb/Development/dotnet/TodoApi/obj/Release/net6.0/TodoApi.MvcApplicationPartsAssemblyInfo.cs
+/Users/philipwebb/Development/dotnet/TodoApi/obj/Release/net6.0/TodoApi.MvcApplicationPartsAssemblyInfo.cache
+/Users/philipwebb/Development/dotnet/TodoApi/obj/Release/net6.0/TodoApi.RazorAssemblyInfo.cache
+/Users/philipwebb/Development/dotnet/TodoApi/obj/Release/net6.0/TodoApi.RazorAssemblyInfo.cs

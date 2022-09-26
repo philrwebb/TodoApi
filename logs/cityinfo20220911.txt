@@ -1,0 +1,47 @@
+2022-09-11 13:43:08.162 +08:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.Versioning.ApiVersionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2022-09-11 13:43:08.420 +08:00 [DBG] Hosting starting
+2022-09-11 13:43:08.443 +08:00 [INF] User profile is available. Using '/Users/philipwebb/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2022-09-11 13:43:08.451 +08:00 [DBG] Reading data from file '/Users/philipwebb/.aspnet/DataProtection-Keys/key-1cfd4ba0-fde4-489b-b998-f2d30879c1fc.xml'.
+2022-09-11 13:43:08.470 +08:00 [DBG] Reading data from file '/Users/philipwebb/.aspnet/DataProtection-Keys/key-9ed2fbc9-6671-46ff-92ba-f0088dfe72bc.xml'.
+2022-09-11 13:43:08.472 +08:00 [DBG] Reading data from file '/Users/philipwebb/.aspnet/DataProtection-Keys/key-ed349950-662a-4d98-a7ff-ea3c36c0f9de.xml'.
+2022-09-11 13:43:08.482 +08:00 [DBG] Found key {1cfd4ba0-fde4-489b-b998-f2d30879c1fc}.
+2022-09-11 13:43:08.495 +08:00 [DBG] Found key {9ed2fbc9-6671-46ff-92ba-f0088dfe72bc}.
+2022-09-11 13:43:08.496 +08:00 [DBG] Found key {ed349950-662a-4d98-a7ff-ea3c36c0f9de}.
+2022-09-11 13:43:08.508 +08:00 [DBG] Considering key {ed349950-662a-4d98-a7ff-ea3c36c0f9de} with expiration date 2022-08-21 08:02:36Z as default key.
+2022-09-11 13:43:08.510 +08:00 [DBG] Key {ed349950-662a-4d98-a7ff-ea3c36c0f9de} is no longer under consideration as default key because it is expired, revoked, or cannot be deciphered.
+2022-09-11 13:43:08.518 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-09-11 13:43:08.524 +08:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2022-09-11 13:43:08.525 +08:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2022-09-11 13:43:08.546 +08:00 [DBG] Repository contains no viable default key. Caller should generate a key with immediate activation.
+2022-09-11 13:43:08.549 +08:00 [DBG] Policy resolution states that a new key should be added to the key ring.
+2022-09-11 13:43:08.560 +08:00 [INF] Creating key {f12eac11-3d86-4aae-858a-c375e8a7047a} with creation date 2022-09-11 05:43:08Z, activation date 2022-09-11 05:43:08Z, and expiration date 2022-12-10 05:43:08Z.
+2022-09-11 13:43:08.574 +08:00 [DBG] Descriptor deserializer type for key {f12eac11-3d86-4aae-858a-c375e8a7047a} is 'Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'.
+2022-09-11 13:43:08.577 +08:00 [DBG] No key escrow sink found. Not writing key {f12eac11-3d86-4aae-858a-c375e8a7047a} to escrow.
+2022-09-11 13:43:08.577 +08:00 [WRN] No XML encryptor configured. Key {f12eac11-3d86-4aae-858a-c375e8a7047a} may be persisted to storage in unencrypted form.
+2022-09-11 13:43:08.580 +08:00 [INF] Writing data to file '/Users/philipwebb/.aspnet/DataProtection-Keys/key-f12eac11-3d86-4aae-858a-c375e8a7047a.xml'.
+2022-09-11 13:43:08.581 +08:00 [DBG] Key cache expiration token triggered by 'CreateNewKey' operation.
+2022-09-11 13:43:08.582 +08:00 [DBG] Reading data from file '/Users/philipwebb/.aspnet/DataProtection-Keys/key-f12eac11-3d86-4aae-858a-c375e8a7047a.xml'.
+2022-09-11 13:43:08.583 +08:00 [DBG] Reading data from file '/Users/philipwebb/.aspnet/DataProtection-Keys/key-1cfd4ba0-fde4-489b-b998-f2d30879c1fc.xml'.
+2022-09-11 13:43:08.583 +08:00 [DBG] Reading data from file '/Users/philipwebb/.aspnet/DataProtection-Keys/key-9ed2fbc9-6671-46ff-92ba-f0088dfe72bc.xml'.
+2022-09-11 13:43:08.583 +08:00 [DBG] Reading data from file '/Users/philipwebb/.aspnet/DataProtection-Keys/key-ed349950-662a-4d98-a7ff-ea3c36c0f9de.xml'.
+2022-09-11 13:43:08.583 +08:00 [DBG] Found key {f12eac11-3d86-4aae-858a-c375e8a7047a}.
+2022-09-11 13:43:08.584 +08:00 [DBG] Found key {1cfd4ba0-fde4-489b-b998-f2d30879c1fc}.
+2022-09-11 13:43:08.584 +08:00 [DBG] Found key {9ed2fbc9-6671-46ff-92ba-f0088dfe72bc}.
+2022-09-11 13:43:08.584 +08:00 [DBG] Found key {ed349950-662a-4d98-a7ff-ea3c36c0f9de}.
+2022-09-11 13:43:08.585 +08:00 [DBG] Considering key {f12eac11-3d86-4aae-858a-c375e8a7047a} with expiration date 2022-12-10 05:43:08Z as default key.
+2022-09-11 13:43:08.587 +08:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2022-09-11 13:43:08.588 +08:00 [DBG] Using managed symmetric algorithm 'System.Security.Cryptography.Aes'.
+2022-09-11 13:43:08.588 +08:00 [DBG] Using managed keyed hash algorithm 'System.Security.Cryptography.HMACSHA256'.
+2022-09-11 13:43:08.592 +08:00 [DBG] Using key {f12eac11-3d86-4aae-858a-c375e8a7047a} as the default key.
+2022-09-11 13:43:08.594 +08:00 [DBG] Key ring with default key {f12eac11-3d86-4aae-858a-c375e8a7047a} was loaded during application startup.
+2022-09-11 13:43:08.777 +08:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 912CCB7B08647BE9A6BB93A9CCF7E2815A8C62C5)
+2022-09-11 13:43:08.837 +08:00 [INF] Now listening on: https://localhost:7209
+2022-09-11 13:43:08.837 +08:00 [INF] Now listening on: http://localhost:5050
+2022-09-11 13:43:08.837 +08:00 [DBG] Loaded hosting startup assembly TodoApi
+2022-09-11 13:43:08.839 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-11 13:43:08.840 +08:00 [INF] Hosting environment: Development
+2022-09-11 13:43:08.840 +08:00 [INF] Content root path: /Users/philipwebb/Development/dotnet/TodoApi/
+2022-09-11 13:43:08.840 +08:00 [DBG] Hosting started
+2022-09-11 13:44:42.987 +08:00 [INF] Application is shutting down...
+2022-09-11 13:44:42.996 +08:00 [DBG] Hosting stopping
+2022-09-11 13:44:43.062 +08:00 [DBG] Hosting stopped

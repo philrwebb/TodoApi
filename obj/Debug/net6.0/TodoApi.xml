@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TodoApi</name>
+    </assembly>
+    <members>
+        <member name="M:CityInfo.API.Controllers.CitiesController.GetCity(System.Int32,System.Boolean)">
+            <summary>
+            Get a city by id
+            </summary>
+            <param name="id">The id of the city</param>
+            <param name="includePointsOfInterest">If true, the points of interest will be returned</param>
+            <returns>An IActionResult</returns>
+            <response code="200">Returns the requested city</response>
+            <response code="404">If the city is not found</response>
+            <response code="400">If the city was not allowed.</response>
+        </member>
+        <member name="T:CityInfo.API.Models.CityDto">
+            <summary>
+            DTO for a city with points of interest
+            </summary>
+        </member>
+        <member name="P:CityInfo.API.Models.CityDto.Id">
+            <summary>
+            The id of the city.
+            </summary>
+        </member>
+        <member name="P:CityInfo.API.Models.CityDto.Name">
+            <summary>
+            The name of the city.
+            </summary>
+        </member>
+        <member name="P:CityInfo.API.Models.CityDto.Description">
+            <summary>
+            The description of the city.
+            </summary>
+        </member>
+        <member name="P:CityInfo.API.Models.CityDto.NumberOfPointsOfInterest">
+            <summary>
+            The number of points of interest for the city.
+            </summary>
+        </member>
+        <member name="P:CityInfo.API.Models.CityDto.PointsOfInterest">
+            <summary>
+            The points of interest for the city.
+            </summary>
+        </member>
+        <member name="T:CityInfo.API.Models.CityWithoutPointsOfInterestDto">
+            <summary>
+            DTO for a city without points of interest.
+            </summary>
+        </member>
+        <member name="P:CityInfo.API.Models.CityWithoutPointsOfInterestDto.Id">
+            <summary>
+            The id of the city.
+            </summary>
+        </member>
+        <member name="P:CityInfo.API.Models.CityWithoutPointsOfInterestDto.Name">
+            <summary>
+            The name of the city.
+            </summary>
+        </member>
+        <member name="P:CityInfo.API.Models.CityWithoutPointsOfInterestDto.Description">
+            <summary>
+            The description of the city.
+            </summary>
+        </member>
+    </members>
+</doc>
